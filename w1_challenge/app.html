@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="천민우">
+  <title>1주차 첼린지 : 퍼즐</title>
+  <style>
+    body{margin: 30px;}
+
+    #puzzle-wrap{
+      height: 300px;
+      width: 300px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      display: flex; 
+      flex-wrap: wrap;
+    }
+    #puzzle-wrap li{
+      width: 100px;
+      height: 100px;
+    }
+
+    .puzzle-0{
+      background-image: url('./images/puzzle-5.png');
+    }
+    .puzzle-1{
+      background-image: url('./images/puzzle-1.png');
+    }
+    .puzzle-2{
+      background-image: url('./images/puzzle-2.png');
+    }
+    .puzzle-3{
+      background-image: url('./images/puzzle-3.png');
+    }
+    .puzzle-4{
+      background-image: url('./images/puzzle-4.png');
+    }
+    .puzzle-5{
+      background-image: url('./images/puzzle-5.png');
+    }
+    .puzzle-6{
+      background-image: url('./images/puzzle-6.png');
+    }
+    .puzzle-7{
+      background-image: url('./images/puzzle-7.png');
+    }
+    .puzzle-8{
+      background-image: url('./images/puzzle-8.png');
+    }
+
+    @media screen and (max-width: 500px;) {
+      /* 여기에 작성하시오 */
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>퍼즐을 맞추세요!</h2>
+    <ul id="puzzle-wrap">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  <script>
+    (function(){
+      var wrapper = document.getElementById('puzzle-wrap');
+      for (let i = 0; i < wrapper.children.length; i++) {
+        let li = wrapper.children[i];
+        li.className += "puzzle-" + i;
+      }
+    }());
+  </script>
+</body>
+</html>

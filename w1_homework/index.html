@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<title>ABOUT HYUNKYUNG</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+	<!--상단-->
+	<div class="topbar">
+		<ul class="nav nav-pills">
+			<!--ABOUT-->
+			<div class="btn-group">
+			  <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    ABOUT <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a href="#">CLICK HYUNKYUNG!</a></li>
+			  </ul>
+			</div>
+			<!--HISTORY-->
+			<li role="presentation"><a href="#HISTORY">HISTORY</a></li>
+			<!--SNS-->
+			<div class="btn-group">
+			  <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    SNS <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li role="separator" class="divider"></li>
+			    <li><a href="#">facebook : facebook.com/66100275</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="#">instagram : hk_0816</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="#">kakao : kc0275@naver.com</a></li>
+			  </ul>
+			</div>
+		</ul>
+	</div>
+	<div class="top">ABOUT HYUNKYUNG</div>
+	
+	<!--중간-->
+	<div class="midbar">
+			<div class="container">
+			
+			<!--이미지 버튼-->
+			  <button type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target="#myModal">
+			  <p><img src="images/main.png" align="middle"></p></button>
+
+
+			  <div class="modal fade" id="myModal" role="dialog">
+			  <div class="modal-dialog">
+			    
+			  <div class="modal-content">
+			 	 <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">ABOUT HYUNKYUNG</h4>
+			        </div>
+			        <div class="modal-body">
+			        </div>
+			    	<div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			  </div>    
+			  </div>
+			  </div>
+			  
+			</div>
+	</div>
+	
+	<!--마지막-->
+	<div class="bottom">
+ 	<div id="HISTORY">
+  	<ul class="nav nav-tabs" role="tablist">
+	<blockquote>
+	 	 <div id="histitle">HISTORY</div>
+  		 <p>인천시 남동구 출생</p>
+ 		 <footer>1996.08.16<cite title="Source Title"></cite></footer>
+ 		 <p>경기도 시흥</p>
+ 		 <footer>1999년 ~ 현재<cite title="Source Title"></cite></footer>
+ 		 <p>장곡초등학교</p>
+ 		 <footer>2004.3~2010.2<cite title="Source Title"></cite></footer>
+ 		 <p>응곡중학교</p>
+ 		 <footer>2010.3~2012.2<cite title="Source Title"></cite></footer>
+ 		 <p>양서고등학교</p>
+ 		 <footer>2012.3~2015.2<cite title="Source Title"></cite></footer>
+ 		 <p>건국대학교 응용통계학과</p>
+ 		 <footer>2015.3 ~ 현재<cite title="Source Title"></cite></footer>
+ 		 <p>2016 응용통계학과 학생회</p>
+ 		 <footer>2016.3~2016.12<cite title="Source Title"></cite></footer>
+ 		 <p>멋쟁이사자처럼 5기</p>
+ 		 <footer>2017.3 ~ 현재<cite title="Source Title"></cite></footer>
+	</blockquote>
+  	</ul>
+	</div>
+
+	<script src="helper.js"></script>
+	<script>
+	//충돌방지라고 해서 적어놓긴 했는데 정확히 뭔지는 모름..!
+	$.noConflict();
+	var J = jquery;
+
+	//HISTORY 에 들어간 scrollspy 스크립트
+	$('body').scrollspy({ target: '#navbar-example' })
+	$('[data-spy="scroll"]').each(function () {
+ 	 var $spy = $(this).scrollspy('refresh')})
+
+	//SNS 에 들어간 dropdown tab 스크립트
+	$('#myTabs a').click(function (e) {
+ 	 e.preventDefault()
+  	$(this).tab('show')
+	})
+
+	//ABOUT (이미지)에 들어간 modal 스크립트 
+	$("#myModal").modal()
+	</script>
+
+</body>
+</html>

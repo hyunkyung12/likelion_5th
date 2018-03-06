@@ -1,0 +1,31 @@
+git 사용방법
+
+다음부터는 더 열심히 공부해갈게여..!!!
+열심히 준비해주셨는데 시험못봐서 죄송해여...8ㅅ8
+
+- 사용 전 
+git config : 기본 설정 변경
+
+- 사용 시작
+git init : 저장소 만들기
+git add : 파일 추가하기 (git add . 는 모든 변경사항 추가)
+git stash : commit 전에 임시저장
+git commit : 변경내용을 확정 (commit -m "코멘트 달기")
+
+- 사용 완료
+git push : 서버에 올리기
+git clone : 저장소 받아오기
+
+- 사용 후 
+git log : commit 버전들의 기록 확인
+git reset : 선택버전의 상태로 
+git revert : 선택버전 취소, 이전상태로
+
+- 가지치기
+git branch : 가지치기, 디폴트는 master
+git checkout 내가지 : 나의 가지로 변경 (checkout -b 새가지 : 가지생성)
+git pull : 변경내용이 로컬에 저장, 병합됨
+git merge 가지이름 : 병합하기, 자동 commit
+
++ 권장 과정 :pull > 작업 >> commit >> pull >> push
+

@@ -1,0 +1,244 @@
+/*font*/
+.top,.time1, .time2, .time3,.sustainment, .col-md-6,.sectiontitle, .use-t, #use-bottom, #use-top, .use-text, .numbert, .numberst {
+	font-family:'Jeju Gothic', serif;
+}
+.numbersub{
+	font-family:'Nanum Pen Script', serif;
+}
+/*main*/
+.top{
+	background: url("https://cdn.pixabay.com/photo/2015/09/22/14/34/african-lion-951778_1280.jpg") no-repeat center 0;
+     background-color: #394A5F;
+     color: #FFFFFF;
+     padding: 350px 0 40px;
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center center;
+}
+.top .container .jumbotron {
+	background-color:transparent;
+}
+.top .container .jumbotron hr{
+	width:400px;
+    text-align:left;
+}
+.subtitle{
+	font-family:Arial;
+    font-size:25px;
+    margin-top:0px;
+}
+.l{
+	color:rgb(0,178,76);
+    font-weight:bold;
+}
+.l2 {
+	color:rgb(255,219,67);
+    font-weight:bold;
+}
+.time3{
+	margin-bottom:30px;
+}
+
+/*section1*/
+.contents1{
+	background-color:white;
+    padding:20px 10% 10% 20px;
+}
+.sectiontitle {
+	font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    color:rgb(64,64,64);
+    margin-bottom: 70px;
+    margin-top:40px;
+}
+.name{
+	font-family: 'Nanum Pen Script', serif;
+}
+
+.name {
+	margin-top:0px;
+}
+.la {
+	font-size:30px;
+}
+.concept,.fragrance {
+	font-size:15px;
+    color:rgb(89,89,89);
+    font-weight:bold;
+    margin-top:40px;
+}
+.concept1, .fragrance1 {
+	font-size:13px;
+}
+/*section1-2*/
+.img-rounded {
+	margin-top:50px;
+}
+
+.contents2{
+	background-color:rgb(134,176,74);
+}
+
+.time1{
+	font-size:15px;
+}
+.time2, .time3{
+	font-size:12px;
+}
+.sustainment {
+	margin-bottom:40px;
+    margin-top:40px;
+    font-size:20px;
+}
+
+#product-use{
+	background-color:rgb(224,224,224);
+	width:auto;
+	height:auto;
+}
+
+/* seonhong */
+/*#numberbackground{
+   background: url('img/green.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+.numberbackgroundtext{
+   margin-top:50px;
+   background-color:transparent;
+   
+}
+.numberbackgroundtext{
+    text-align: center;
+}
+.numbertitle{
+	font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    color:rgb(64,64,64);
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.numbersub{
+	font-size:30px;
+	margin-bottom:40px;
+}
+.numbert{
+	font-size:18px;
+
+}
+.numberst{
+	font-size:13px;
+	margin-bottom:80px;
+
+}
+
+/*hyunkyoung*/
+
+#footer {
+	background-color:gray;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.use-img {
+    width:100px;
+    height:100px;
+}
+
+body{
+    font-family: 'Jeju Gothic', serif;
+}
+
+.use-1{
+    text-align: center;
+    }
+
+.use-2{
+    text-align: center;
+}
+
+.use-3{
+    text-align: center;
+}
+
+.use-title{
+    font-size: 30px;
+    color:#000;
+}
+
+.use-text{
+    text-align: center;
+    font-size: 14px;
+    color:#000;
+    margin-bottom:30px;
+}
+
+#use-top{
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+    color:rgb(64,64,64);
+    margin-top:40px;
+    margin-bottom:10px;
+}
+
+.use-img {
+    margin-bottom:10px;
+}
+
+.use-t {
+    font-size:20px;
+    color:rgb(89,89,89);
+    font-weight:normal;
+ }
+
+
+
+#use-bottom{
+    text-align: center;
+    font-size:20px;
+    margin-top:5px;
+    margin-bottom:40px;
+
+}
+
+
+h4,.footer-1{
+    text-align: center;
+}
+
+.footer-img{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width:50px;
+    height:50px;
+}
+.footertitle{
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:30px;
+
+}
+
+#footer {
+    background:url('../img/green.png') no-repeat center 0;
+    background-size:auto;
+    background-color: #394A5F;
+    color: #FFFFFF;
+    margin-bottom: 0;
+
+}
+
+
+#mainNav{
+    background: transparent;
+}
+
+nav{
+    color:#FFF;
+}
